@@ -1,4 +1,4 @@
-const axios = requiere ('axios');
+const axios = require ('axios');
 const { Driver, Team } = require('../db');
 
 const getDriverById = async (id) => {

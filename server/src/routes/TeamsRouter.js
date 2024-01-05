@@ -1,5 +1,6 @@
 const {Router} = require('express');
-const { getAllTeams } = require('../controllers');
+
+const getAllTeams = require('../controllers/getAllTeams');
 
 const TeamsRouter = Router();
 

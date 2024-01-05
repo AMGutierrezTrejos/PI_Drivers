@@ -37,7 +37,7 @@ const getAllDrivers = async (name) => {
 
     if (name) {
         driversByName = allDrivers.filter((driver) => 
-        driver.forename.toLowerCase().startsWith(name.toLowerCase()));
+            driver.forename.toLowerCase().startsWith(name.toLowerCase()));
         if (driversByName.length) {
             return driversByName.slice(0, 15);
         } else {
