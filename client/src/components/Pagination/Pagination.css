@@ -1,0 +1,30 @@
+.container-pagination{
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+}
+
+.ButtonPagination {
+    cursor: pointer;
+    background-color: green;
+    font-family: 'Montserrat', sans-serif;
+    border: 2px solid black;
+    color: white;
+    font-weight: bolder;
+    width: 70px;
+    height: 22px;
+    margin: 5px;
+    border-radius: 9px;
+}
+
+.ButtonPagination:hover {
+    background-color: red;
+    color: black;
+}
+
+.Page {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}

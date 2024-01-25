@@ -1,0 +1,21 @@
+.Home_Page {
+    width: 100%;
+    height: max-content;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.controllers {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    margin: 0 auto;
+}
+
+body {
+    background-image: url('../public/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+  }

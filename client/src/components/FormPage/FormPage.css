@@ -1,0 +1,127 @@
+/* Reset de estilos */
+body, h1, h2, h3, p, div, ul, li, button, input, textarea, select {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos generales */
+  .conteiner-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  .form {
+    background-image: url('../public/backgroundForm.jpg');
+    border-radius: 15px;
+    width: 40%;
+    font-family: 'Montserrat', sans-serif;
+    padding: 40px;
+  }
+
+  .title-create-driver{
+    font-size: 40px;
+    text-align: center;
+    backdrop-filter: blur(5px);
+    color: black;
+    font-weight: bolder;
+  }
+  
+  /* Estilos para cada input */
+  .FormGroup {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 4px;
+    color: black;
+
+    font-size: 20px;
+    font-weight: bolder;
+    backdrop-filter: blur(10px);
+  }
+  
+  input,
+  textarea,
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 4px;
+    border: 1px solid #414141;
+    border-radius: 5px;
+    background-color: lightyellow; /* Amarillo Mario Bros */
+    color: #000; /* Texto negro para mayor contraste */
+    font-weight: bolder;
+  }
+  
+  /* Estilos para botones redondos */
+  .button-esc,
+  .form-submit {
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #fff;
+    background-color: #8B4513; /* Marrón Mario Bros */
+
+    font-size: 26px;
+    
+    
+    
+  }
+  
+  .form-submit.enabled {
+    background-color: #B22222; /* Rojo Mario Bros */
+  }
+  
+  /* Estilos para mensajes de error y éxito */
+  .danger,
+  .success {
+    font-size: 10px;
+    margin: 5px;
+  }
+  
+  .danger {
+    color: black; /* Rojo Mario Bros */
+    font-weight: bolder;
+    backdrop-filter: blur(10px);
+  }
+  
+  .success {
+    color: #008000; /* Verde Mario Bros */
+  }
+  
+  .option{
+    font-size: 20px;
+    font-weight: bolder;
+    backdrop-filter: blur(10px);
+    color: black;
+  }
+
+  .option-team{
+    font-size: 14px;
+    font-weight: bolder;
+    backdrop-filter: blur(10px);
+    color: black;
+  }
+
+  .FormGroup dob{
+    font-size: 14px;
+    font-weight: bolder;
+    backdrop-filter: blur(10px);
+    color: black;
+  }
+
+  .optionPaises{
+    font-size: 7px;
+    font-weight: bolder;
+    color: black;
+  }

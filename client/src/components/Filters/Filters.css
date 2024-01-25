@@ -1,0 +1,53 @@
+.Filters {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 15px;
+    font-size: 10px;
+}
+
+select {
+    width: 20px;
+    height: 37px;
+    background-color: rgba(240, 248, 255, 0);
+    border: 1px solid black;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px;
+    font-size: 11px;
+    margin-left: 15px;
+    color: red;
+    font-weight: bolder;
+}
+
+option {
+    color: red;
+    background-color: green;
+    font-size: 7px;
+    font-weight: bolder;
+}
+
+.button-reset {
+    width: 20%;
+    height: 30px;
+    background-color: green;
+    border: 1px solid green;
+    margin-left: 15px;
+    color: black;
+    padding: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    border-radius: 9px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    cursor: pointer;
+}
+
+.button-reset:hover{
+    background-color: red;
+    color: black;
+}
+

@@ -1,0 +1,17 @@
+nav {
+    width: 10%;
+    height: 15%;
+    display: flex;
+    justify-content: start;
+}
+
+.logo {
+    display: flex;
+    align-content: center;
+}
+
+.logo {
+    width: 150px;
+    height: 100px;
+    padding-left: 17px;
+}
